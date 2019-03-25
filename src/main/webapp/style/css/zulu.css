@@ -1,0 +1,175 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:1349px;}
+.sub-main-w2 {
+    width: 30%;
+    margin: 80px auto;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    padding: 30px;
+}
+.sub-main-w2 h2 {
+    color: #87F5A5;
+    font-size: 2.1em;
+    letter-spacing: 1px;
+    text-shadow: 4px 5px 8px #101010;
+    margin-bottom: 1em;
+    text-align: center;
+    font-weight: 300;
+}
+.sub-main-w2 label {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    font-weight: 300;
+    display: inline-block;
+}
+.sub-main-w2 label span{
+    text-shadow: 4px 5px 10px #101010;
+    color: #f53e71;
+}
+.sub-main-w2 input[type="submit"] {
+    color: #fff;
+    margin-left: 50px;
+    float: left;
+    background: #f53e71;
+    border: none;
+    padding: 13px 0;
+    margin-top: 30px;
+    outline: none;
+    width: 26%;
+    border-radius: 26px;
+    text-transform: uppercase;
+    font-size: .9em;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+@media(max-width: 1440px){
+    .sub-main-w2 {
+        width: 32%;
+    }
+}
+@media(max-width: 1366px){
+    .sub-main-w3 {
+        width: 35%;
+        height: 380px;
+    }
+}
+@media(max-width: 1080px){
+    .sub-main-w2 h2 {
+        font-size: 1.7em;
+    }
+    .sub-main-w2 {
+        width: 38%;
+        margin: 78px auto;
+    }
+}
+@media(max-width: 1050px){
+    .sub-main-w2 {
+        width: 40%;
+    }
+}
+@media(max-width: 991px){
+    .sub-main-w2 {
+        width: 44%;
+    }
+}
+@media(max-width: 900px){
+    .sub-main-w2 {
+        width: 48%;
+    }
+}
+@media(max-width: 800px){
+
+    .sub-main-w2 {
+        width: 55%;
+        padding: 40px;
+        margin: 65px auto;
+    }
+
+}
+@media(max-width: 736px){
+    .sub-main-w3 {
+        width: 57%;
+    }
+}
+@media(max-width: 667px){
+    .sub-main-w2 {
+        width: 62%;
+    }
+}
+@media(max-width: 640px){
+    .sub-main-w2 {
+        width: 65%;
+    }
+}
+@media(max-width: 600px){
+    .sub-main-w2 {
+        width: 69%;
+    }
+}
+@media(max-width: 568px){
+    .sub-main-w2 {
+        width: 73%;
+    }
+}
+@media(max-width: 440px){
+    .sub-main-w2 {
+        margin: 40px auto;
+    }
+    .sub-main-w2 h2 {
+        font-size: 1.6em;
+    }
+}
+@media(max-width: 384px){
+
+    .sub-main-w2 {
+        padding: 30px;
+    }
+
+    .sub-main-w2 label {
+        font-size: 14px;
+    }
+    .sub-main-w2 h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media(max-width: 320px){
+    .sub-main-w2 {
+        padding: 20px;
+        width: 78%;
+    }
+    .sub-main-w2 h2 {
+        font-size: 1.3em;
+    }
+    .sub-main-w2 label {
+        font-size: 13px;
+    }
+}
